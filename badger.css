@@ -1,0 +1,143 @@
+.badger-outter
+	{
+	background:#fff;
+	border:1px solid #ccc;
+	min-width: 30px;
+	height: 30px;
+	border-radius: 18px;
+	-moz-border-radius: 18px;
+	-webkit-border-radius: 18px;
+	box-shadow:0px 1px 5px #ccc;
+	-moz-box-shadow:0px 1px 5px #ccc;
+	-webkit-box-shadow:0px 1px 5px #ccc;
+	float:left;
+	position:absolute;
+	top:-25px;
+	right:-25px;
+	z-index:9999;
+	}
+.badger-inner
+	{
+	min-width: 24px;
+	height: 24px;
+	border-radius: 15px;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	background: #f13c31;
+	background: -moz-linear-gradient(100% 100% 90deg, #f13c31, #f79690);
+  	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f79690), to(#f13c31));
+  	background: -webkit-linear-gradient(#f79690, #f13c31);
+    background: -o-linear-gradient(#f79690, #f13c31);
+    margin:3px;
+    z-index:99999;
+	}
+.badger-badge
+	{
+	color:#fff;
+	padding:2px 5px;
+	margin:0;
+	text-align:center;
+	text-shadow:0px -1px 1px #e01b0f;
+	z-index:999999;
+	}
+.badger-text
+	{ font-size:15px; }
+.badger-number
+	{ font-size:20px; }
+/* ------------------------------------- */
+/* ---------Green Check Mark------------ */
+/* ------------------------------------- */
+.gbadger-outter
+	{
+	background:#fff;
+	/* 00FF00 ---> 00FF00 */
+	border:1px solid #00FF00;
+	min-width: 30px;
+	height: 30px;
+	border-radius: 18px;
+	-moz-border-radius: 18px;
+	-webkit-border-radius: 18px;
+	box-shadow:0px 1px 5px #00FF00;
+	-moz-box-shadow:0px 1px 5px #00FF00;
+	-webkit-box-shadow:0px 1px 5px #00FF00;
+	float:left;
+	position:absolute;
+	top:-18px;
+	right:-18px;
+	z-index:9999;
+	}
+.gbadger-inner
+	{
+	/* #31F131 --> 31F131
+		90F790 --> 90F790*/
+	min-width: 24px;
+	height: 24px;
+	border-radius: 15px;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	background: #31F131;
+	background: -moz-linear-gradient(100% 100% 90deg, #31F131, #90F790);
+  	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#90F790), to(#31F131));
+  	background: -webkit-linear-gradient(#90F790, #31F131);
+    background: -o-linear-gradient(#90F790, #31F131);
+    margin:3px;
+    z-index:99999;
+	}
+.gbadger-badge
+	{
+	color:#fff;
+	padding:5px 5px;
+	margin:0;
+	text-align:center;
+	width:5px; height: 35px;
+	background: url("images/checkmark2.png");
+	background-repeat: no-repeat;
+	text-indent: -9999px; 
+	text-shadow:0px -1px 1px #0FE00F;
+	z-index:999999;
+	}
+.gbadger-text
+	{ font-size:18px; }
+.gbadger-number
+	{ font-size:20px; }
+/* ------------------------------------- */
+/* ---------Green Check Mark 2------------ */
+/* ------------------------------------- */	
+	
+	
+.dgbadger-outter
+	{
+	
+	min-width: 30px;
+	height: 30px;
+	float:left;
+	position:absolute;
+	top:-18px;
+	right:-18px;
+	z-index:9999;
+	}
+.dgbadger-inner
+	{
+	min-width: 24px;
+	height: 24px;
+    margin:3px;
+    z-index:99999;
+	}
+.dgbadger-badge
+	{
+	color:#fff;
+	padding:5px 5px;
+	margin:0;
+	text-align:center;
+	width:35px; height: 35px;
+	background: url("images/checkcircle.png");
+	background-repeat: no-repeat;
+	text-indent: -9999px; 
+	text-shadow:0px -1px 1px #0FE00F;
+	z-index:999999;
+	}
+.checkmark {
+	width:35px; height: 35px;
+	background: url("images/checkcircle.png");
+	text-indent: -9999px; 
+}
