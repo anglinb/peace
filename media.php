@@ -17,6 +17,10 @@ require('includes/header.php');
 <iframe width="640" height="360" src="http://www.youtube.com/embed/kqDVLFDz5W4" frameborder="0" allowfullscreen></iframe>
 <p style="text-align: right;">Peaceconferencing - <a style="font-style: italic;" href="http://www.youtube.com/user/Peaceconferencing?feature=watch">Peaceconferencing's Youtube Channel</a></p>
 </div>
+<div style="width: 640px; margin: 0 auto; padding-top: 15px;">
+<iframe width="640" height="360" src="//www.youtube.com/embed/CHwwJUpj1lM" frameborder="0" allowfullscreen></iframe>
+<p style="text-align: right;">Peace Conferencing - <a style="font-style: italic;" href="http://www.youtube.com/watch?v=CHwwJUpj1lM&feature=youtu.be">Jake Chasan's Youtube Channel</a></p>
+</div>
 <h3>Media Links</h3>
 <div style="width: 640px; margin: 0 auto;">
 <h2 style="font-size: 1.5em;">PAXsims Article</h2>
@@ -27,4 +31,3 @@ require('includes/header.php');
 <?php
 include('includes/footer.php');
 ?>
-U-TOUCH Peace Conferencing 215
