@@ -8,12 +8,12 @@ if(isset($_POST['math']) && isset($_GET['answer']) && $_GET['answer'] == $_POST[
 		$message .= "\n \n at " . $email;
 		$message = wordwrap($message, 70);
 		$subject = $_POST['subject'];
-		$where_to = "laxnski@gmail.com";
+		$where_to = "kdruker@yahoo.com";
 		mail($where_to, $subject , $message);
 		header("Location: contact.php?sucess=1");
 		exit;
 	}else {
-		header('Location: telmedx.com');
+		header('Location: peaceconferencing.org');
 		exit;
 	}
 }else {

@@ -20,6 +20,6 @@
 		<li>Merges Technology and Role Play</li>
 		<li>Places Students in the Driver’s Seat </li>
 		<li>Teaches Valuable Negotiation Skills to Global Youth</li>
-		<li>Uses Gaming and Social Media</li>
+		<li>Uses Gaming and Social Media to Recharge the Learning Process</li>
 	</ul>
 </div>

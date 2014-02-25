@@ -1,10 +1,12 @@
 <?php
 $page = "contact.php";
 require('includes/header.php');
+//include('pages/contact_include.php');
 ?>
+
 <!-- <div id="content" class="clearfix shadow">
 	<h3>Contact Page</h3>
-	<p>you cant contact us anytime at (email)</p>
+	<p>You can contact us anytime at <a href="mailto:peaceconferencing.org@gmail.com">peaceconferencing.org@gmail.com</a></p>
 </div> -->
 <style type="text/css">
 form {
@@ -16,14 +18,14 @@ input {
 }
 input[type=text] {
    width: 250px;
-    border: 1px solid #B2C3FF;
-  /* background-color: #E5A7A9;*/
+    border: 1px solid #083363;
+
   padding-left: 5px;
   color: #676767;
 
 }
 label {
-	color: #B2C3FF;
+	color: #083363;
 	font-size: .9em;
 }
 textarea {
@@ -33,7 +35,7 @@ textarea {
 	min-height: 150px;
 	font-family: 'Droid Sans', sans-serif;
 
-  border: 1px solid #B2C3FF;
+  border: 1px solid #083363;
   padding: 5px;
 
 }
@@ -60,9 +62,12 @@ input[type=submit], input[type=reset]{
 }
 /*455*/
 </style>
-<?php 
+<?php
+	$numbers = array(0=>"zero",1=>"one",2=>"two",3=>"three",4=>"four",5=>"five",6=>"six",7=>"seven",8=>"eight",9=>"nine",10=>"ten"); 
 	$num_1 = rand(0,10);
+	$num_11 = $numbers[$num_1];
 	$num_2 = rand(0,10);
+	$num_22 = $numbers[$num_2];
 	$answer = $num_1 + $num_2;
 	if(isset($_GET['for'])) {
 		$for = "&for=" . $_GET['for'];
@@ -70,7 +75,8 @@ input[type=submit], input[type=reset]{
 		$for = "";
 	}
 ?>
-<div id="content" class="clearfix shadow" style="margin: 0px 100px 50px 100px; width: 55%" >
+<div id="content" class="clearfix shadow" >
+<div  style="margin: 0px 100px 50px 100px; width: 55%" >
 	<h3>Contact</h3>
 	<?php if(isset($_GET['sucess'])) { if($_GET['sucess'] == 1) {$message = "Your message was sent!";}else { $message="Something went wrong; try again"; } include 'includes/banner_yes.php';} ?>
 <form name="contact" action="process.php?answer=<?php echo $answer . $for; ?>" method="post">
@@ -96,7 +102,7 @@ input[type=submit], input[type=reset]{
 	<td><textarea placeholder="message" name="message"></textarea></td>
 		</tr>
 		<tr>
-	<td><label for="math">Are you a human? <?php echo $num_1 . " + " . $num_2 . " = "; ?></label></td>
+	<td><label for="math">What is <?php echo $num_11 . " + " . $num_22 . " ? "; ?></label></td>
 	<td><input name="math" placeholder="math here" type="text" /></td>
 		</tr>
 		<tr>
@@ -106,6 +112,7 @@ input[type=submit], input[type=reset]{
 		</tr>
 	</table>
 </form>
+</div>
 </div>
 <?php
 include('includes/footer.php');
